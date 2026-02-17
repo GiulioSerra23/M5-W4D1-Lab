@@ -38,7 +38,7 @@ public class SurfaceImpactAudioController : MonoBehaviour
             case SurfaceID.WOOD:
                 return SoundID.FOOTSTEPS_WOOD;
             default:
-                return SoundID.FOOTSTEPS_GRASS; 
+                return SoundID.NONE; 
         }
     }
 }
